@@ -1,0 +1,43 @@
+html {
+	
+  background: url(http://moxetkhan.com/wp-content/uploads/2015/05/IMG_1625.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+.button {
+	position: relative;
+	height: 50px;
+	width: 175px;
+	background: orange;
+	color: black;
+	margin: auto;
+	border-radius: 50px;
+	top: 650px;
+	left: 650px;
+	font-size: 16px;
+	
+	
+}
+
+.button h4 {
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+
+.button:hover {
+	cursor: pointer;
+	background: orange;
+	opacity: .8;
+
+	}
+
+
